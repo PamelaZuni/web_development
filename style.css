@@ -1,0 +1,311 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap');
+
+header {
+  background-color: #3C177D;
+  width: 100%;
+  color: white;
+  height: 48px;
+}
+
+footer {
+  background-color: #6028C0;
+  height: 48px;
+  text-align: center;
+  color:#fff;
+  padding-top: 25px;
+  font-size: 10px;
+}
+
+body {
+  background-color:#C5C5C5;
+  color: #171717;;
+  font-family: "Radio Canada", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+section {
+  display: flex;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  padding-right: 10px;
+  font-size: 12px;
+}
+
+main-text {
+  font-size: 600px;
+  font-weight: 900;
+  color:aquamarine;
+}
+
+secondary-text{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #5210BE;
+  color: #fff;
+  border: none;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 48px;
+  padding-right: 48px;
+  font-size: 10px;
+  border-radius: 6px;
+}
+
+input {
+  border: none;
+  border-radius: 10px;
+  height: 18px;
+}
+
+textarea {
+  border: none;
+  border-radius: 10px;
+  height: 31px;
+}
+
+label {
+  color: #1B1B1B;
+  
+}
+
+
+
+.first {
+  float: left;
+  padding-top: 16px;
+  padding-left: 140px;
+} 
+
+.second {
+  float: right;
+  padding-top: 16px; 
+  padding-right: 154px;
+ 
+}
+
+.second ul li {
+  display: inline;
+  
+}
+
+.main-content {
+  width: 100%;  
+  /* background-color: greenyellow; */
+  height: 300px;
+  margin-top: 67px;
+}
+
+.main-content .left-side {
+  float: left;
+  /* background-color: red; */
+  width: 326px;
+  margin-left: 150px;
+  margin-top: 65px;
+  text-align: center;
+}
+
+.main-content .left-side h5 {
+  font-weight: bold;
+  font-size: 10px;
+  padding-bottom: 15px;
+}
+
+.main-content .left-side h2 {
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 14px;
+} 
+
+.main-content .left-side p {
+  font-size: 11px;
+  padding-bottom: 10px;
+}
+
+.main-content .left-side button {
+  background-color: #5210BE;
+  color: #fff;
+  border: none;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 48px;
+  padding-right: 48px;
+  font-size: 10px;
+  border-radius: 6px;
+}
+
+
+.main-content .right-side {
+  float: right;
+  margin-right: 180px;
+  margin-top:18px;
+}
+
+.main-content .right-side img {
+  width: 250px;
+  height: 245px;
+}
+
+.about-me {
+  width: 100%;
+  margin-top: 133px;
+  height: 408px;
+}
+
+.about-me .left-side {
+  margin-left: 164px;
+  float: left;
+
+}
+
+.about-me .right-side {
+  float: right ;
+  /* background-color: red; */
+  width: 530px;
+  margin-right: 150px;
+  margin-top: 35px;
+  text-align: center;
+  /* background-color: aqua; */
+  padding-bottom: 20px;
+  float: right;
+}
+
+.about-me .right-side h2 {
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 14px;
+}
+.about-me .right-side p {
+  /* background-color: beige; */
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.about-me .right-side h1 {
+}
+
+.about-me .right-side button {
+  padding-left: 18px;
+  padding-right: 18px;
+
+}
+
+.about-me .left-side img {
+  width: 215px;
+  border-radius: 88%;
+  border: 3px solid #5210BE;
+}
+
+.contact-me {
+  height: 400px;
+
+  
+}
+
+.contact-me .left-side h2 {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 14px;
+  text-align: center;
+}
+
+.contact-me .left-side {
+ float: left;
+ /* background-color: green; */
+ width: 400px;
+ margin-left: 164px;
+}
+
+.contact-me .left-side .images {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+  
+}
+
+.contact-me .right-side {
+  float: right;
+  /* background-color: blue; */
+  margin-right: 200px;
+  width: 226px;
+}
+
+.contact-me .right-side input {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.contact-me .right-side textarea {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.contact-me .right-side button {
+  width: 100%;
+  
+}
+
+
+
+
+/* #3D187C 
+
+#C5C5C5 */
+
+
