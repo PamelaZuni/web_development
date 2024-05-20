@@ -263,6 +263,12 @@ label {
 
 }
 
+.github-actions {
+  display: flex;
+  justify-content: center;
+
+}
+
 
 .about-me .left-side img {
   width: 165px;
